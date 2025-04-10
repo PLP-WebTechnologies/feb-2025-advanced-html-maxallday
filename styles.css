@@ -8,19 +8,9 @@ body {
     text-align: center; padding: 20px;
 }
 .header-1 {
-    height: 90px; /* Adjust the value to your preferred height */
-    background-image: url(img/book.jpg); /* Optional: Add a background color */
-    color: white; /* Optional: Text color */
-    display: flex;/* Use flexbox for centering */
-    align-items: center;
-    justify-content: center;
-   ; 
-    font-family: 'Albert Sans';font-size: 52px; font-weight: 900;
-    text-align: center; padding: 0px; 
-    color: rgb(2, 17, 7); 
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
+    
+    height: 750px; width: 100%;color: rgb(2, 17, 7); 
+    text-align: center; padding: 20px;
 }
 #title {
     font-family: 'Albert Sans';font-size: 52px; font-weight: 900;
@@ -31,15 +21,12 @@ body {
 #slogan {
     font-family: 'Sofia';font-size: 42px;
     text-align: center; padding: 0px; 
-    color: rgb(196, 130, 130); 
+    background: url('travel-banner.jpg') no-repeat center; 
+    color: rgb(10, 121, 47); 
 }
-.main-content1 {
-    display: flex;/* Use flexbox for centering */
-    flex-direction: column;/* Stack items vertically */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh; /* Ensures it fills the viewport */
+.hero { text-align: center; padding: 50px; 
+    background: url('travel-banner.jpg') no-repeat center; 
+    color: rgb(196, 130, 130); 
 }
 .book-now-button {
     display: inline-block;
@@ -69,15 +56,5 @@ body {
 .footer{
   
     height: 200px; width: 100%;color: rgb(2, 17, 7); 
-    text-align: center; 
-    content: center;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-td, th {
-    text-align: center;
-    border: 10px solid rgb(242, 236, 236);
-    padding: 8px;
+    text-align: center; padding: 20px;
 }
