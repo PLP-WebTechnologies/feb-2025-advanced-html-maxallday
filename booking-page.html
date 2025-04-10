@@ -10,28 +10,19 @@
         <link rel="stylesheet" href="styles.css">
         <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
-        <script>
-            function showMessage() {
-                alert("We will get back to you shortly with the details of your booking.");
-            }
-        </script>
     </head>
     <body>
-        <section class="header-1">
-            <h1 id="title">IRURA TRAVELS</h1>
-        </section>
-        <section class="main-content1">
+       
+        <section class="main-content">
             <h2>Book Your Dream Trip!</h2>
-            <br><br><br><br>
             <p>Fill out the form below to book your next Holiday destination with Irura Travels.</p>
             <form action="confirmation-page.html" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
                 <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
-                <label for="dob">Date of Birth:</label><br>
-                <input type="date" id="dob" name="dob" required><br><br>
                 <label for="phone">Phone Number:</label><br>
+                <input type="number" id="phone" name="phone" required><br><br>
                 <label for="destination">Destination:</label><br>
                 <select id="destination" name="destination" required>
                     <option value="">Select a Destination</option>
@@ -39,16 +30,35 @@
                     <option value="Tokyo">Tokyo, Japan</option>
                     <option value="Bali">Bali, Indonesia</option>
                     <option value="Phuket">Phuket, Thailand</option>
-                    <option value="Palawan">Palawan, Philippines</option>
-                    <option value="Zanzibar">Zanzibar, Tanzania</option>
-                    <option value="Trou Aux Biches">Trou Aux Biches, Mozambique</option>
-                </select>
+                    <option value="New York">Palawan, Philippines</option>
+               </select><br><br>
+                <label for ="Vacation">Please select your the purpose of your Vacation::</label><br>
+                <input type="radio" id="html" name="vaca_type" value="HTML">
+                <label for="html">Vacation</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="biz">Business</label><br>
+                <input type="radio" id="honeymoon" name="fav_language" value="JavaScript">
+                <label for="javascript">Honeymoon</label><br>
+                <br>
+                <label for="adults">Number of Adults:</label><br>
+                <input type="number" id="adults" name="adults" min="1" max="10" required><br><br>
+                <label for="children">Number of Children:</label><br>
+                <input type="number" id="children" name="children" min="0" max="10"><br><br>
+                <label for="room-type">Room Type:</label><br>
+                <select id="room-type" name="room-type" required>
+                    <option value="">Select Room Type</option>
+                    <option value="single">Single</option>
+                    <option value="double">Double</option>
+                    <option value="suite">Suite</option>
+                    <option value="family">Family</option>
+                    <option value="deluxe">Deluxe</option>
                 </select><br><br>
-                <input type="submit" value="Book Now" onclick="showMessage(); return false;">
+                
+                <label for="departure-date">Departure Date:</label><br>
+                <input type="date" id="departure-date" name="departure-date" required><br><br>
+                <label for="return-date">Return Date:</label><br>
+                <input type="date" id="return-date" name="return-date" required><br><br>
+                
+                
+                <input type="submit" value="Book Now">
             </form>
-           
-            <p>We will get back to you shortly with the details of your booking.</p>
-            <p>Thank you for choosing Irura Travels!</p>
-
-            
-        </section>`    
