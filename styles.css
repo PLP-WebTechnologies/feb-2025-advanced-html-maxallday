@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif; margin: 0; padding: 0;
+    content: center; 
+}
+.header {
+    background: url('img/travel.jpg') no-repeat center; 
+    height: 750px; width: 100%;color: rgb(2, 17, 7); 
+    text-align: center; padding: 20px;
+}
+.header-1 {
+    height: 90px; /* Adjust the value to your preferred height */
+    background-image: url(img/book.jpg); /* Optional: Add a background color */
+    color: white; /* Optional: Text color */
+    display: flex;/* Use flexbox for centering */
+    align-items: center;
+    justify-content: center;
+   ; 
+    font-family: 'Albert Sans';font-size: 52px; font-weight: 900;
+    text-align: center; padding: 0px; 
+    color: rgb(2, 17, 7); 
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+#title {
+    font-family: 'Albert Sans';font-size: 52px; font-weight: 900;
+    text-align: center; padding: 100px; background: url('travel-banner.jpg') no-repeat center; 
+    color: rgb(2, 17, 7);
+
+}
+#slogan {
+    font-family: 'Sofia';font-size: 42px;
+    text-align: center; padding: 0px; 
+    color: rgb(196, 130, 130); 
+}
+.main-content1 {
+    display: flex;/* Use flexbox for centering */
+    flex-direction: column;/* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Ensures it fills the viewport */
+}
+.book-now-button {
+    display: inline-block;
+    background: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease;
+}
+.book-now-button:hover {
+    background: #e05a4f;
+    transform: scale(1.1);
+}
+
+.main-content {
+    display: flex; flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    padding: 0px;
+}
+
+.footer{
+  
+    height: 200px; width: 100%;color: rgb(2, 17, 7); 
+    text-align: center; 
+    content: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    text-align: center;
+    border: 10px solid rgb(242, 236, 236);
+    padding: 8px;
+}

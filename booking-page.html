@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Booking Page</title>
+        <meta name="author" content="Maxallday">
+        <meta name="description" content="Booking Page">
+        <meta name="keywords" content="PLP2025, booking page, maxallday">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Albert Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <script>
+            function showMessage() {
+                alert("We will get back to you shortly with the details of your booking.");
+            }
+        </script>
+    </head>
+    <body>
+        <section class="header-1">
+            <h1 id="title">IRURA TRAVELS</h1>
+        </section>
+        <section class="main-content1">
+            <h2>Book Your Dream Trip!</h2>
+            <br><br><br><br>
+            <p>Fill out the form below to book your next Holiday destination with Irura Travels.</p>
+            <form action="confirmation-page.html" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br><br>
+                <label for="phone">Phone Number:</label><br>
+                <label for="destination">Destination:</label><br>
+                <select id="destination" name="destination" required>
+                    <option value="">Select a Destination</option>
+                    <option value="Langkawi">Langkawi, Malaysia</option>
+                    <option value="Tokyo">Tokyo, Japan</option>
+                    <option value="Bali">Bali, Indonesia</option>
+                    <option value="Phuket">Phuket, Thailand</option>
+                    <option value="Palawan">Palawan, Philippines</option>
+                    <option value="Zanzibar">Zanzibar, Tanzania</option>
+                    <option value="Trou Aux Biches">Trou Aux Biches, Mozambique</option>
+                </select>
+                </select><br><br>
+                <input type="submit" value="Book Now" onclick="showMessage(); return false;">
+            </form>
+           
+            <p>We will get back to you shortly with the details of your booking.</p>
+            <p>Thank you for choosing Irura Travels!</p>
+
+            
+        </section>`    
